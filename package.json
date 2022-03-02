@@ -6,8 +6,8 @@
   "main": "flip.js",
   "scripts": {
     "flip": "node flip.js",
-	  "flips": "node flips.js",
-	  "guess-flip": "node guess-flip.js",
+    "flips": "node flips.js",
+    "guess-flip": "node guess-flip.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a02-bcoop2000/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a02-bcoop2000#readme"
+  "homepage": "https://github.com/comp426-2022-spring/a02-bcoop2000#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "yargs": "^17.3.1"
+  }
 }
