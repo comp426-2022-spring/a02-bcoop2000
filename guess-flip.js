@@ -13,7 +13,7 @@ if (call == 1) {
     console.error("Error: no input.\nUsage: node guess-flip --call=[heads|tails]");
 }
 if (call != "heads" && call != "tails") {
-    console.error("Usage: node guess-flip --call=[heads|tails]");
+    console.error("Usage: node guess-flip.js --call=[heads|tails]");
 }
 // Call the coinFlips function and put the return into STDOUT
 console.log(flipACoin(call))
