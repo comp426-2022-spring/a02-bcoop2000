@@ -15,4 +15,5 @@ let number = args['number'] || 1;
 // Call the coinFlips function and put the return into STDOUT
 const myFlips = coinFlips(number);
 
-console.log(myFlips, countFlips(myFlips))
+console.log(myFlips)
+console.log(countFlips(myFlips))
