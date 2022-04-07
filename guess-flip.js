@@ -10,7 +10,8 @@ let call = args['call'] || 42;
 // let call = args.call;
 // check for errors
 if (call == 42) {
-    console.error("Error: no input.\nUsage: node guess-flip --call=[heads|tails]");
+    console.log("Error: no input.")
+    console.log("Usage: node guess-flip --call=[heads|tails]");
 }
 if (call == "heads") {
     console.log(flipACoin(call));
@@ -18,6 +19,7 @@ if (call == "heads") {
 } else if (call == "tails") {
     console.log(flipACoin(call))
 } else {
-    console.error("Error: no input.\nUsage: node guess-flip --call=[heads|tails]");
+    console.log("Error: no input.")
+    console.log("Usage: node guess-flip --call=[heads|tails]");
 }
 // Call the coinFlips function and put the return into STDOUT
