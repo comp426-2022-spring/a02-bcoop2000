@@ -46,7 +46,7 @@ function coinFlip() {
 function coinFlips(flips) {
   const res = [];
   for(let step = 0; step < flips; step++) {
-    res.push(coinFlip());
+    res[step] = coinFlip();
   }
   return res;
 }
